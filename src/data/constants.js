@@ -424,7 +424,7 @@ export const projects = [
     description:
       "Developed a machine learning model using LightGBM with optimized hyperparameters to improve prediction accuracy in assessing creditworthiness.",
     image:
-      "https://github.com/rishavchanda/DecisionHub/raw/master/assets/testRule.jpg",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRvHM0s8d_9pIOANCAxwtpiHUOZbCTlbcKGdA&s",
     tags: [
       "Python",
       "Machine Learning(LightGBM)",
@@ -434,7 +434,7 @@ export const projects = [
       // "React Flow",
     ],
     category: "machine learning",
-    github: "https://github.com/rishavchanda/DecisionHub",
+    github: "",
     // webapp: "https://decisionhub.netlify.app/",
   },
   {
@@ -452,7 +452,7 @@ export const projects = [
       "Flask",
     ],
     category: "machine learning",
-    github: "https://github.com/rishavchanda/Trackify",
+    github: "",
     // webapp: "https://trackify-management.netlify.app/",
   },
   {
@@ -462,11 +462,11 @@ export const projects = [
     description:
       "Built a web-based tool to demonstrate and compare ECC (NIST-P256) and Ed25519 algorithms for digital signing and verification. The system visualizes key parameters (r, s), measures signature performance, and evaluates security aspects interactively using React and Flask.",
     image:
-      "https://user-images.githubusercontent.com/64485885/234602896-a1bd8bcc-b72b-4821-83d6-8ad885bf435e.png",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQlkmieZfGZi6ILxaAW0jr9VM85TG4zvTFNbg&s",
     tags: ["React Js", "Python", "Node Js"],
     category: "web app",
-    github: "https://github.com/rishavchanda/Podstream",
-    webapp: "https://podstream.netlify.app/",
+    github: "",
+    // webapp: "",
     // member: [
     //   {
     //     name: "Rishav Chanda",
@@ -482,26 +482,25 @@ export const projects = [
     //   },
     // ],
   },
-  // {
-  //   id: 1,
-  //   title: "Vexa",
-  //   date: "Oct 2022 - Jan 2023",
-  //   description:
-  //     "Designed and developed the Vexa project, a project management app that helps users and teams stay organized and on track. Implemented key features such as task tracking, team collaboration, and time tracking to improve productivity and project outcomes and also invite team/project members. The plan is to add a community of users where they can find developers and other team members and chat system implementation.",
-  //   image:
-  //     "https://user-images.githubusercontent.com/64485885/234916413-96296f13-fe4b-4cc4-b215-e72bd7c27928.png",
-  //   tags: [
-  //     "React Js",
-  //     "MongoDb",
-  //     "Node Js",
-  //     "Express Js",
-  //     "Redux",
-  //     "NodeMailer",
-  //   ],
-  //   category: "web app",
-  //   github: "https://github.com/rishavchanda/Project-Management-App",
-  //   webapp: "https://vexa-app.netlify.app/",
-  // },
+  {
+    id: 1,
+    title: "Website Porfolio",
+    date: "April 2025 - May 2025",
+    description:
+      "Developed a 3D Website porfolio using the MERN technology using ReactJs.Where the contaent of my data can be viewed in theDesigned and built a sleek portfolio website in React.js to highlight my skills, academic milestones, and tech projects through an intuitive and responsive layout.",
+    image:
+      "https://raw.githubusercontent.com/PranavRagi/portfolio-website/refs/heads/main/Screenshot%202025-05-09%20194236.png",
+    tags: [
+      "React Js",
+      "MongoDb",
+      "Node Js",
+      "Redux",
+      "NodeMailer",
+    ],
+    category: "web app",
+    github: "https://github.com/PranavRagi/portfolio-website.git",
+    webapp: "",
+  },
   // {
   //   id: 2,
   //   title: "Brain Tumor Detection",
