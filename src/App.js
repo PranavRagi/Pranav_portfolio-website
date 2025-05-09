@@ -1,6 +1,6 @@
 import styled, { ThemeProvider } from "styled-components";
-import { darkTheme } from "./utils/Themes";
-// import {lightTheme} from "./utils/Themes";
+// import { darkTheme } from "./utils/Themes";
+import {lightTheme} from "./utils/Themes";
 import Navbar from "./components/Navbar";
 import { BrowserRouter } from "react-router-dom";
 import Hero from "./components/sections/Hero";
@@ -38,7 +38,7 @@ const Wrapper = styled.div`
 
 function App() {
   return (
-    <ThemeProvider theme={darkTheme}>
+    <ThemeProvider theme={lightTheme}>
       <BrowserRouter>
         <Navbar />
         <Body>
