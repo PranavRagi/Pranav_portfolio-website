@@ -4,7 +4,7 @@ import "react-vertical-timeline-component/style.min.css";
 import styled from "styled-components";
 import { achievements } from "../../data/constants";
 import AchievementCard from "../cards/AchievementCard";
-import EarthCanvas from "../canvas/Earth";
+// import EarthCanvas from "../canvas/Earth";
 
 const Container = styled.div`
   display: flex;
@@ -18,6 +18,7 @@ const Container = styled.div`
 
 const Wrapper = styled.div`
   position: relative;
+
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -54,7 +55,7 @@ const Desc = styled.div`
 
 const Achievements = () => {
   return (
-    <Container id="achievements">
+    <Container id="Achievements">
       <Wrapper>
         <Title>Achievements</Title>
         <Desc
@@ -73,7 +74,7 @@ const Achievements = () => {
             />
           ))}
         </VerticalTimeline>
-        <EarthCanvas />
+        {/* <EarthCanvas /> */}
       </Wrapper>
     </Container>
   );

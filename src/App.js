@@ -9,9 +9,10 @@ import Experience from "./components/sections/Experience";
 import Education from "./components/sections/Education";
 import StartCanvas from "./components/canvas/Stars";
 import Projects from "./components/sections/Projects";
+import Achievements from "./components/sections/Achievements";
 import Contact from "./components/sections/Contact";
 import Footer from "./components/sections/Footer";
-import Achievements from "./components/sections/Achievements";
+
 
 const Body = styled.div`
   background-color: ${({ theme }) => theme.bg};
@@ -53,8 +54,8 @@ function App() {
             <Wrapper>
               <Education />
               <Achievements/>
-              <Contact />
             </Wrapper>
+            <Contact />
             <Footer />
           </div>
         </Body>
